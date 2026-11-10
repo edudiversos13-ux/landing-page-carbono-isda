@@ -29,6 +29,34 @@ h1, h2, h3, h4, h5, h6 {
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+
+/* Centralizar imagens dentro dos cartões */
+.stImage {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+/* Padronizar tamanho e aparência das fotos */
+.stImage img {
+    width: 220px !important;
+    height: 220px !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+    border-radius: 10px !important;
+}
+
+/* Centralizar nomes e descrições */
+.stImage + div {
+    text-align: center;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
 st.title("Carbono do Solo + IA | Projeto da Disciplina de IA🌱")
 with st.container(border=True): # border=True adiciona uma borda sutil se o tema permitir
     st.title(" Do Solo aos Dados: Estimando Carbono Orgânico com IA")
