@@ -45,7 +45,7 @@ with col_imagem:
         "https://www.isda-africa.com/img/isdasoil/isdasoil-home_hu_7ad6d14f83d440d9.webp",
         caption="Fonte: https://www.isda-africa.com/",
         use_container_width=True
-    ))    
+    )    
 st.write('---')
 st.header('Nossa equipe')
 st.write('Conheça nosso grupo:')
