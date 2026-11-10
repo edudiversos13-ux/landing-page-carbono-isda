@@ -40,7 +40,7 @@ with col_texto:
         "Vamos investigar como os atributos químicos do solo podem ajudar "
         "a estimar o carbono orgânico em áreas agrícolas da África Ocidental."
     )
-    with col_imagem:
+with col_imagem:
     # st.image exibe uma imagem a partir de um endereço da internet.
     st.image(
         "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
