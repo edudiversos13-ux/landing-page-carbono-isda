@@ -40,13 +40,6 @@ with col_texto:
         "Vamos investigar como os atributos químicos do solo podem ajudar "
         "a estimar o carbono orgânico em áreas agrícolas da África Ocidental."
     )
-with col_imagem:
-    # st.image exibe uma imagem a partir de um endereço da internet.
-    st.image(
-        "https://www.isda-africa.com/img/isdasoil/isdasoil-home_hu_7ad6d14f83d440d9.webp",
-        caption="Fonte: https://www.isda-africa.com/",
-        use_container_width=True
-    )
 st.write('---')
 st.header('Nossa equipe')
 st.write('Conheça nosso grupo:')
