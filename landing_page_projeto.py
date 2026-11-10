@@ -59,7 +59,7 @@ with col_eduardo:
             width = 220
         )
         st.subheader('Eduardo Santana')
-        st.write('Doutorando no PPGCA-AGRO')
+        st.write('Doutorado PPGCA-AGRO')
 
 with col_alex:
     with st.container(border=True):
@@ -68,7 +68,7 @@ with col_alex:
             width = 220
         )
         st.subheader('Alex Delva')
-        st.write('Mestrando no PPGCA-AGRO')
+        st.write('Mestrado PPGCA-AGRO')
 
 with col_jackelyne:
     with st.container(border=True):
@@ -77,7 +77,7 @@ with col_jackelyne:
             width = 220
         )
         st.subheader('Jakelyne Ferreira')
-        st.write('Doutoranda no PPGCA-AGRO')
+        st.write('Doutorado PPGCA-AGRO')
 
 st.write("---")
 
