@@ -269,7 +269,4 @@ st.info(
     "ser apresentadas depois da execução e avaliação dos modelos."
 )
 
-st.write("---")
-st.write("🌿 Ciência do solo • Inteligência Artificial • Agricultura sustentável")
-st.caption("Projeto científico baseado na atividade de Canvas Científico para planejamento de um estudo com IA no Agronegócio.")
 
