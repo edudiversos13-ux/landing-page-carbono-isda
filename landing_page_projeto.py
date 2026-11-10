@@ -143,11 +143,7 @@ with col_dado3:
         st.write("Atributos químicos candidatos")
 
 # Segunda imagem ilustrativa, relacionada ao solo e às plantas.
-st.image(
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgHwUpa-cvTuF48sF6xhZenqIi0q8rn5KFkbdqKv855-rzOeG_Wacs4uE&s=10",
-    caption="O solo e suas características são a base do estudo.",
-    use_container_width=True
-)
+
 st.write("---")
 
 st.header("⚙️ Como a pesquisa será realizada?")
