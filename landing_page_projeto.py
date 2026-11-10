@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 """, unsafe_allow_html=True)
 
 
-st.title("Disciplina:Inteligência Artificial e Ciência de Dados Aplicada a Agricultura de Precisão🌱")
+st.title("Disciplina: Inteligência Artificial e Ciência de Dados Aplicada a Agricultura de Precisão🌱")
 with st.container(border=True): # border=True adiciona uma borda sutil se o tema permitir
     st.title(" Do Solo aos Dados: Estimando Carbono Orgânico com IA")
 col_texto, col_imagem = st.columns([1, 1])
