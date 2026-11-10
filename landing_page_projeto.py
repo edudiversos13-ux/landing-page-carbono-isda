@@ -142,7 +142,6 @@ with col_dado3:
         st.subheader("15")
         st.write("Atributos químicos candidatos")
 
-# Segunda imagem ilustrativa, relacionada ao solo e às plantas.
 
 st.write("---")
 
