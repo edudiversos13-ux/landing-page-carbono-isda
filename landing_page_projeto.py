@@ -51,6 +51,17 @@ st.write('---')
 st.header('Nossa equipe')
 st.write('Conheça nosso grupo:')
 
+st.markdown("""
+<style>
+/* Centralizar somente as fotos da equipe */
+.stImage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+</style>
+""", unsafe_allow_html=True)
+
 col_eduardo, col_alex, col_jackelyne= st.columns(3)
 
 with col_eduardo:
