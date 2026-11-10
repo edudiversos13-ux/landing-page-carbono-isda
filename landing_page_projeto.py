@@ -31,7 +31,7 @@ col_eduardo, col_alex, col_jackelyne= st.columns(3)
 with col_eduardo:
     with st.container(border=True):
         st.image(
-            'imagens/eduardo.jpeg',
+            'eduardo.jpeg',
             width = 220
         )
         st.subheader('Eduardo Santana')
@@ -40,7 +40,7 @@ with col_eduardo:
 with col_alex:
     with st.container(border=True):
         st.image(
-            'imagens/alex.jpeg',
+            'alex.jpeg',
             width = 220
         )
         st.subheader('Alex Delva')
@@ -49,7 +49,7 @@ with col_alex:
 with col_jackelyne:
     with st.container(border=True):
         st.image(
-            'imagens/jakelyne.jpeg',
+            'jakelyne.jpeg',
             width = 220
         )
         st.subheader('Jakelyne Ferreira')
@@ -93,11 +93,11 @@ with col_isda:
 
 
         st.image(
-            'imagens/logo_isda.jpg',
+            'logo_isda.jpg',
             width = 220
         )
         st.image(
-            'imagens/logo_kangle.png',
+            'logo_kangle.png',
                         width = 220
         )
         
