@@ -41,12 +41,11 @@ with col_texto:
         "a estimar o carbono orgânico em áreas agrícolas da África Ocidental."
     )
 with col_imagem:
-    # st.image exibe uma imagem a partir de um endereço da internet.
     st.image(
-        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
-        caption="Paisagem agrícola e uso sustentável do solo",
+        "https://www.isda-africa.com/img/isdasoil/isdasoil-home_hu_7ad6d14f83d440d9.webp",
+        caption="Fonte: https://www.isda-africa.com/",
         use_container_width=True
-    )    
+    ))    
 st.write('---')
 st.header('Nossa equipe')
 st.write('Conheça nosso grupo:')
