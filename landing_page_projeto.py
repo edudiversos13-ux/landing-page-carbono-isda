@@ -151,7 +151,7 @@ with col_dado3:
 
 # Segunda imagem ilustrativa, relacionada ao solo e às plantas.
 st.image(
-    "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1200&q=80",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgHwUpa-cvTuF48sF6xhZenqIi0q8rn5KFkbdqKv855-rzOeG_Wacs4uE&s=10",
     caption="O solo e suas características são a base do estudo.",
     use_container_width=True
 )
