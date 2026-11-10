@@ -5,6 +5,31 @@ st.set_page_config(
     layout="wide", # Permite que o conteúdo ocupe a largura total da tela
     initial_sidebar_state="collapsed" # Esconde a sidebar por padrão, ideal para landing pages
     )
+
+st.markdown("""
+<style>
+/* Fonte Book Antiqua em toda a página */
+html, body, [class*="st-"] {
+    font-family: "Book Antiqua", "Palatino Linotype",
+                 "Palatino", serif !important;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Book Antiqua", "Palatino Linotype",
+                 "Palatino", serif !important;
+    font-weight: 700 !important;
+}
+
+/* Botões */
+.stButton button {
+    font-family: "Book Antiqua", "Palatino Linotype",
+                 "Palatino", serif !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
 st.title("Carbono do Solo + IA | Projeto da Disciplina de IA🌱")
 with st.container(border=True): # border=True adiciona uma borda sutil se o tema permitir
     st.title(" Do Solo aos Dados: Estimando Carbono Orgânico com IA")
