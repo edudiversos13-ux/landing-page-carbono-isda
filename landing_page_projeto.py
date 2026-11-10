@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 """, unsafe_allow_html=True)
 
 
-st.title("Carbono do Solo + IA | Projeto da Disciplina de IA🌱")
+st.title("Disciplina:Inteligência Artificial e Ciência de Dados Aplicada a Agricultura de Precisão🌱")
 with st.container(border=True): # border=True adiciona uma borda sutil se o tema permitir
     st.title(" Do Solo aos Dados: Estimando Carbono Orgânico com IA")
 col_texto, col_imagem = st.columns([1, 1])
@@ -51,21 +51,6 @@ st.write('---')
 st.header('Nossa equipe')
 st.write('Conheça nosso grupo:')
 
-st.markdown("""
-<style>
-/* Centralizar as fotos dentro dos cartões da equipe */
-[data-testid="stVerticalBlockBorderWrapper"] [data-testid="stImage"] {
-    display: flex !important;
-    justify-content: center !important;
-    width: 100% !important;
-}
-
-[data-testid="stVerticalBlockBorderWrapper"] [data-testid="stImage"] img {
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-</style>
-""", unsafe_allow_html=True)
 col_eduardo, col_alex, col_jackelyne= st.columns(3)
 
 with col_eduardo:
