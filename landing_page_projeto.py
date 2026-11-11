@@ -50,8 +50,15 @@ st.write('---')
 st.header('Nossa equipe')
 st.write('Conheça nosso grupo:')
 
-col_eduardo, col_alex, col_jackelyne= st.columns(3)
-
+col_alex, col_eduardo,  col_jackelyne= st.columns(3)
+with col_alex:
+    with st.container(border=True):
+        st.image(
+            'alex.jpeg',
+            width = 220
+        )
+        st.subheader('Alex Delva')
+        st.write('Mestrado PPGCA-AGRO')
 with col_eduardo:
     with st.container(border=True):
         st.image(
@@ -61,14 +68,7 @@ with col_eduardo:
         st.subheader('Eduardo Santana')
         st.write('Doutorado PPGCA-AGRO')
 
-with col_alex:
-    with st.container(border=True):
-        st.image(
-            'alex.jpeg',
-            width = 220
-        )
-        st.subheader('Alex Delva')
-        st.write('Mestrado PPGCA-AGRO')
+
 
 with col_jackelyne:
     with st.container(border=True):
