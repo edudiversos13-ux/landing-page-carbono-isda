@@ -4,7 +4,7 @@ st.set_page_config(
     page_icon="",
     layout="wide", # Permite que o conteúdo ocupe a largura total da tela
     initial_sidebar_state="collapsed" # Esconde a sidebar por padrão, ideal para landing pages
-    )
+    ) 
 
 st.markdown("""
 <style>
